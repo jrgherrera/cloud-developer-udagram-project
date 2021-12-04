@@ -64,7 +64,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
     const filteredPath = await filterImageFromURL(image_url);
 
-    return res.sendFile(filteredPath, err => {
+    return res.status(200).sendFile(filteredPath, err => {
       if (err) {
         return res.status(500).send('Unable to process image');
       }
