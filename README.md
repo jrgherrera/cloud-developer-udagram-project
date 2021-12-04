@@ -7,3 +7,4 @@
 - First, call /login?username=admin&password=admin and you will get the token (copy it)
 - Then call /filteredimage?image_url={url}&token={copied token}
 - EB URL: http://image-filter-894865937276-dev22.us-east-1.elasticbeanstalk.com/
+- EB Deployed application in root project (eb_screenshot.png)
